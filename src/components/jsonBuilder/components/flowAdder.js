@@ -4,7 +4,7 @@
 import React, { useContext } from 'react';
 
 //System
-import { createContext, getPropSpecs } from 'opus-ui';
+import { createContext, getPropSpecs } from '@intenda/opus-ui';
 
 //Context
 const JsonBuilderContext = createContext('iconContext');

@@ -11,7 +11,7 @@ import { JsonBuilder } from './components/jsonBuilder';
 import propsJsonBuilder from './components/jsonBuilder/props';
 
 //Opus Lib
-import Opus from 'opus-ui';
+import Opus from '@intenda/opus-ui';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

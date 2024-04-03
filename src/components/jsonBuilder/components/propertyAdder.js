@@ -4,7 +4,7 @@
 import React, { useContext } from 'react';
 
 //System
-import { createContext, stateManager, getThemes } from 'opus-ui';
+import { createContext, stateManager, getThemes } from '@intenda/opus-ui';
 
 //Context
 const JsonBuilderContext = createContext('iconContext');

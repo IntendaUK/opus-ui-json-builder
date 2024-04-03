@@ -1,5 +1,5 @@
 //System Helpers
-import { clone } from 'opus-ui';
+import { clone } from '@intenda/opus-ui';
 
 //Helpers
 import findParentComponentNode from '../helpers/findParentComponentNode';
