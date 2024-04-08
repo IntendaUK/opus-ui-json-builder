@@ -150,7 +150,7 @@ const getMdaEditAction = ({ setState, state: { addingScriptAction, addingScript 
 
 	const { type, ...rest } = addingScriptAction;
 
-	const config = configActions.find(c => c.type === type);
+	const config = configActions.find(c => c.key === type);
 
 	return [{
 		type: 'label',
